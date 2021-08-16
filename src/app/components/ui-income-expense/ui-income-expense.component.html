@@ -1,0 +1,14 @@
+
+<div class="container">
+    <ul>
+        <li *ngFor="let amount of incomeAmount">
+            {{ amount.description }}  {{ amount.amount }}
+        </li>
+    </ul>
+
+    <ul >
+        <li *ngFor="let amount of expenseAmount">
+            {{ amount.description }}  {{ amount.amount }}
+        </li>
+    </ul>
+</div>
